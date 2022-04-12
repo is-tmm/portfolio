@@ -1,0 +1,14 @@
+# エディタ
+/.vscode
+**/_notes
+
+# 環境依存
+/node_modules
+/vendor
+
+# コンパイル後
+/main.js
+/style.css
+
+# ソースマップ
+*.map
