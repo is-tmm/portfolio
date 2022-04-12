@@ -8,7 +8,7 @@
 
 # コンパイル後
 /main.js
-/style.css
+style.css
 
 # ソースマップ
 *.map
