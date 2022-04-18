@@ -1,0 +1,11 @@
+@use "../setting" as *;
+
+.l-site-header {
+    background: $color__background-accent;
+    box-shadow: #000;
+    box-sizing: border-box;
+    padding: $space__ss $space__l $space__s;
+    width: 100%;
+    position: fixed;
+    z-index: 20;
+}

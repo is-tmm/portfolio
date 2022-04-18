@@ -1,0 +1,70 @@
+/*
+Theme Name: Hikikomo Engineer
+Theme URI: https://wordpress.org/themes/hikikomo
+Author: Ishikawa
+Author URI: http://hikikomo.net/
+Description: ポートフォリオ用の自作テンプレート
+Tags: blog
+Version: 0.1
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+Text Domain: hikikomo
+*/
+@use "../setting" as *;
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: $color__background;
+    color: $color__text;
+    font-family: $font-family__sans-serif;
+    text-size-adjust: 100%;
+    width: 100%;
+    line-height: 1.5;
+}
+
+a {
+    // color: $color-font-default;
+    // font-size: $font-size-m;
+    text-decoration: none;
+    text-size-adjust: 100%;
+    cursor: pointer;
+    // @include mq() {
+        // color: $color-font-default;
+    // }
+}
+a:hover {
+    // color: $color-primary;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    vertical-align: bottom;
+}
+input,
+select {
+    font-size: 16px;
+    cursor: pointer;
+    background-color: $color__background-input;
+}
+label,
+select {
+    cursor: pointer;
+}
+button {
+    border: none;
+    // background: $color-white;
+    padding: 0;
+    cursor: pointer;
+}
+::placeholder {
+    // color: $color-form-placeholder;
+    // font-weight: $font-weight-thiner;
+}
