@@ -7,12 +7,12 @@
         "build": "webpack --mode production",
         "dev": "webpack --mode development",
         "webpack_watch": "webpack --mode development --watch",
-        "sass_webpack_watch": "sass --watch src/sass/_style.scss src/sass/style.css",
-        "watch": "npm run sass_webpack_watch && npm run webpack_watch"
+        "sass_watch": "sass --watch src/sass/_style.scss src/sass/style.css"
     },
     "license": "ISC",
     "devDependencies": {
         "css-loader": "^6.7.1",
+        "css-minimizer-webpack-plugin": "^3.4.1",
         "mini-css-extract-plugin": "^2.6.0",
         "sass": "^1.50.0",
         "sass-loader": "^12.6.0",
