@@ -1,0 +1,13 @@
+/*
+Theme Name: Hikikomo Engineer
+Theme URI: https://wordpress.org/themes/hikikomo
+Author: Ishikawa
+Author URI: http://hikikomo.net/
+Description: ポートフォリオ用の自作テンプレート
+Tags: blog
+Version: 0.1
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+Text Domain: hikikomo
+*/
