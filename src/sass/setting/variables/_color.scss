@@ -21,6 +21,7 @@ $color__background-input: $_white-solid;
 
 // Text
 $color__text: $_primary-dark;
+$color__text-white: $_white;
 $color__text-input: $_black-solid;
 // $color__text-screen: #21759b;
 // $color__text-input: #666;
@@ -40,3 +41,6 @@ $color__border: $_primary;
 // $color__border-button-focus: #aaa #bbb #bbb;
 // $color__border-input: $color__border;
 // $color__border-abbr: #666;
+
+// Shadow
+$color__box-shadow: rgba(0, 0, 0, 0.15);

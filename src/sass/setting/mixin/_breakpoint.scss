@@ -1,6 +1,12 @@
-// ブレークポイント
+$_breakpoints: (
+    //415px 〜 959px タブレット用
+    "sp": "screen and (min-width: 415px)",
+    //960px〜$site-width　PC用
+    "pc": "screen and (min-width: 960px)"
+) !default;
+
 @mixin mq($breakpoint: pc) {
-    @media #{map-get($breakpoints, $breakpoint)} {
+    @media #{map-get($_breakpoints, $breakpoint)} {
         @content;
     }
 }

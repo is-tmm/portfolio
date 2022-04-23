@@ -1,11 +1,15 @@
 @use "../setting" as *;
 
-.l-site-header {
-    background: $color__background-accent;
-    box-shadow: #000;
-    box-sizing: border-box;
-    padding: $space__ss $space__l $space__s;
+.l-header {
     width: 100%;
-    position: fixed;
-    z-index: 20;
+    height: 50px;
+    line-height: 1.5rem;
+    background: $color__background-accent;
+    box-shadow: 0 3px 6px $color__box-shadow;
+    box-sizing: border-box;
+    color: $color__text-white;
+    padding: $space__m;
+    @include mq() {
+        height: 130px;
+    }
 }

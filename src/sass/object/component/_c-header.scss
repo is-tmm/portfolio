@@ -1,0 +1,19 @@
+@use "../../setting" as *;
+
+.c-header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    @include mq(){
+        width: 70%;
+        margin: auto;
+    }
+    &__site-title {
+        font-size: $size-default;
+        line-height: 100%;
+        align-self: center;
+        @include mq(){
+            font-size: $size-xl;
+        }
+    }
+}
