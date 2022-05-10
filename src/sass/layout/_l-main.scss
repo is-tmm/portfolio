@@ -1,0 +1,11 @@
+@use "../setting" as *;
+
+.l-main {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    padding: $space__xl $space__s;
+    @include mq(){
+        padding: $space__xxl $space__s;
+    }
+}

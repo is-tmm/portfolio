@@ -1,19 +1,23 @@
+// pallet
+// @link https://chir.ag/projects/name-that-color
+// --------------------------------
 $_white-solid: #fff;
 $_black-solid: #000;
 $_alabaster: #f7f7f7;
 $_kabul: #56443c;
 $_copper: #BF8132;
 $_copper_rust: #8C4D59;
-$_fruit_salad: #4F8C5D;
+$_amulet: #76A279;
 
+
+// Basic color setting
+// --------------------------------
 $_primary: $_kabul;
 $_primary-dark: darken($_kabul, 15%); //#29201d
 $_secondary: $_copper_rust;
 $_white: $_alabaster;
 
 
-// color
-// -----------------------------------------------------------
 // Backgrounds
 $color__background: $_white;
 $color__background-accent: $_primary;
@@ -27,13 +31,13 @@ $color__text-input: $_black-solid;
 // $color__text-input: #666;
 // $color__text-input-focus: #111;
 
-// // Links
+// Links
 // $color__link: #0073aa;
 // $color__link-visited: #0073aa;
 // $color__link-hover: darken( $color__link, 10% );
 
 // Borders
-$color__border: $_primary;
+$color__border: $_amulet;
 // $color__border-link: #0073aa;
 // $color__border-link-hover: darken( $color__link, 10% );
 // $color__border-button: #ccc #ccc #bbb;

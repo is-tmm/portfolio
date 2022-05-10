@@ -1,0 +1,15 @@
+// aリンクを要素いっぱいに拡張
+
+.c-link-cover {
+  position: relative;
+
+  &__link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 3;
+  }
+
+}

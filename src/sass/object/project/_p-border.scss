@@ -1,0 +1,35 @@
+@use "../../setting" as *;
+
+.p-boder {
+    position: relative;
+    text-align: center;
+    font-size: $font-size__ls;
+    color: $color__text;
+    padding: $space__xxl 0 $space__xl 0;
+    @include mq() {
+        font-size: $font-size__ll;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 30px;
+        background: linear-gradient(45deg, $color__border 50%, transparent 52%),
+            linear-gradient(315deg, $color__border 50%, transparent 52%);
+        background-size: 15px 40px;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 30px;
+        background: linear-gradient(45deg, $color__border 50%, transparent 52%),
+            linear-gradient(315deg, $color__border 50%, transparent 52%);
+        background-size: 15px 40px;
+    }
+}

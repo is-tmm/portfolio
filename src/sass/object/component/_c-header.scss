@@ -6,14 +6,14 @@
     display: flex;
     @include mq(){
         width: 70%;
-        margin: auto;
+        margin: 0 auto;
     }
     &__site-title {
-        font-size: $size-default;
+        font-size: $font-size__default;
         line-height: 100%;
         align-self: center;
         @include mq(){
-            font-size: $size-xl;
+            font-size: $font-size__xl;
         }
     }
 }

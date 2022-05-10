@@ -1,19 +1,20 @@
 // size
-$size-ss: 1.0rem;
-$size-s: 1.2rem;
-$size-m: 1.4rem;
-$size-default: 1.6rem;
-$size-l: 1.8rem;
-$size-ls: 2.0rem;
-$size-ll: 2.5rem;
-$size-xl: 3.0rem;
+$font-size__ss: 1.0rem;
+$font-size__s: 1.2rem;
+$font-size__m: 1.4rem;
+$font-size__default: 1.6rem;
+$font-size__l: 1.8rem;
+$font-size__ls: 2.0rem;
+$font-size__ll: 2.5rem;
+$font-size__xl: 3.0rem;
 
 // weight
-$weight-thiner: 300;
-$weight-default: 400;
-$weight-bolder: 700;
+$font-weight__thiner: 300;
+$font-weight__default: 400;
+$font-weight__bolder: 700;
 
 // family
 $font-family__sans-serif: "BIZ UDPGothic", "Noto Sans JP", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
-$font-family-serif: "Times New Roman", 'Noto Serif JP', "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
-$font-family-mail: "Meiryo UI", "Hiragino Sans", "Hiragino Kaku Gothic ProN","Yu Gothic UI", "MS PGothic", sans-serif;
+$font-family__serif: "Times New Roman", 'Noto Serif JP', "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+$font-family__mail: "Meiryo UI", "Hiragino Sans", "Hiragino Kaku Gothic ProN","Yu Gothic UI", "MS PGothic", sans-serif;
+$font-family__font-awesome: "Font Awesome 5 Free";
